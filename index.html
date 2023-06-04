@@ -3,431 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/choices.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Selyvonenko Kateryna CV</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<!-- Front Page-->
-<section class="front-page">
-    <nav class="navigation">
+    <!--main container  -->
+<div class="wraper">
+<aside class="sidebar">
+    <img src="./img/Kate-pic.jpg" alt="Kate-pic" class="myphoto">
+    <!-- contacts container -->
+    <div class="contact-container"> 
+        <h3 class="contacts-title">
+            CONTACTS</h3>
+    <div> <span class="CE">C:</span> <a href="tel:+380951448802" class="telmail" >+380951448802</a> </div>
+    <div> <span class="CE">E:</span> <a href="mailto:katement@gmail.com" class="telmail" >katement@gmail.com</a> </div>
+</div>
+<!-- skills container -->
+<!-- tech -->
+    <div class="tech-skills-container">
+        <h3 class="skillstitle" >Tech Skills</h3>
+        <ul >
+            <li class="tech-skills-item"> <span class="tech-skill-text">HTML</span> </li>
+            <li class="tech-skills-item"> <span class="tech-skill-text">MS Office</span></li>
+            <li class="tech-skills-item"><span class="tech-skill-text">Adobe Photoshop</span></li>
+            <li class="tech-skills-item"><span class="tech-skill-text">FineReader</span></li>
+            <li class="tech-skills-item"><span class="tech-skill-text">ABBYY Lingvo</span></li>
+            <li class="tech-skills-item"><span class="tech-skill-text">Smartcat (CAT tools)</span></li>
+        </ul>
+    </div>
+    <!-- soft -->
+    <div class="soft-skills-container">
+        <h3 class="skillstitle">Soft Skills</h3>
+        <ul><li class="soft-skills-item"><span class="tech-skill-text">Goal–oriented</span></li> 
+            <li class="soft-skills-item"><span class="tech-skill-text">Responsible</span></li>
+            <li class="soft-skills-item"><span class="tech-skill-text">Tidy</span></li>
+            <li class="soft-skills-item"><span class="tech-skill-text">Able to work both independently and as a «team–player»</span></li>
+            <li class="soft-skills-item"><span class="tech-skill-text">Easygoing</span></li>
+            <li class="soft-skills-item"><span class="tech-skill-text">Organized</span></li>
+            <li class="soft-skills-item"><span class="tech-skill-text">Able to learn quickly</span></li>
+           </ul>
+        </div>
+        <!-- languages -->
+    <div class="languages-container">
+        <h3 class="skillstitle">Languages</h3>
+        <ul> <li class="language-skills-item"><span class="tech-skill-text">Fluent English (C1 level)</span></li>
+            <li class="language-skills-item"><span class="tech-skill-text">Basic level of Polish (A1)</span></li>
+            <li class="language-skills-item"><span class="tech-skill-text">Ukrainian and Russian (native)</span></li>
+            
+        </ul>
+    </div>
+            
+  
+</aside>
+<div class="aboutme" >
+   <!--about me container  -->
+    <div>
+        <h2 class="profession" >Front-end Developer</h2>
+        <h1 class="name">Kateryna Selyvonenko</h1>
+   
+    <p class="description">I am looking for remote job of a Junior Front-end Developer.  </p>
+</div>
+    <!-- Projects container -->
+<div class="project-container">
+    <h3 class="about-me-title">Projects</h3>
+    <ol>
+        <li class="pr-item" > 
+            <a class="projects-item" href="https://lovecamp.allinsol.com/" class="link">https://lovecamp.allinsol.com/</a> 
+            
+            <span class="dots">..........</span>
+            <span><b>[</b><span class="tech-name">HTML</span> <b>]</b></span>
+        </li>
+        <li class="pr-item"> 
+            <a class="projects-item" href="https://cryptohub.goit.ua/" class="link">https://cryptohub.goit.ua/</a> 
+            <span class="dots">....................</span>
+            <span><b>[</b><span class="tech-name">Java Script</span><b>]</b></span>
+        </li>
+        <li class="pr-item"> 
+            <a class="projects-item" href="https://kidslike.goit.co.ua/" class="link">https://kidslike.goit.co.ua/</a> 
+            <span class="dots">....................</span>
+            <span> <b>[</b><span class="tech-name">React.js, Node.js</span><b>]</b></span>
+        </li>
         
-        <a href="" class="logo-link"><img src="img/goit-logo.svg" alt="GOIT logo"></a>
-        <div class="navigation-part">
-        <a href="" class="hire-me-btn"> — HIRE ME
-        </a>
-        <a href="" class="mobile-menu"><i class="fas fa-bars"></i>
-           </a>
-        </div>
-    </nav>
-  <h1 class="front-page-my-name"> [Kateryna Selyvonenko]</h1>  
-
-  <h2 class="front-page-profession">
-      {Frontend}
-      _DEVELOPER</h2>  
- 
-   <p class="front-page-description">/ Using HTML, CSS, JavaScript, React Native and Node.js I help to build websites, small and medium web apps for business
-
-   </p> 
-   
-   <button class="front-page-gallery-btn accent-btn"> See my recent works  —</button>
-  
-   <img src="img/Kate-pic.jpg" alt="" class="front-page-my-photo">
- 
-   <p class="front-page-my-decr">About me in 2 minutes</p>
- 
-   <button class="front-page-my-video-btn">
-   <i class="fas fa-play"></i>
-    PLAY</button>
-
-<img src="img/laptop.svg" alt="" class="front-page-laptop">
-<div class="experience-container">
-    <h3 class="experience-title"> 
-        My Coding Skills 
-        & Experience</h3>
-<div class="experience-skill">
-    <div class="experience-dots">
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-    </div>
-    
-<p class="experience-text">Html</p>
-
+    </ol>
 </div>
-   
-<div class="experience-skill">
-    <div class="experience-dots">
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-    </div>
-    
-<p class="experience-text">CSS</p>
+<!--  Work experience container-->
+<div>
+    <h3 class="about-me-title">Work Experience</h3>
+    <ul class="professional-duties">
+        <!-- company 1 -->
+      <div> 
+          <li class="work-exp-item"><h4 class="company">Biuro Tłumaczeń Skrivanek</h4> 
+<span class="profession-time"> November 2019-present</span>
+<p>Position - translator</p> </li> </div>
+<!-- company 2 -->
+<div> 
+    <li class="work-exp-item"> <h4 class="company">Managing company of the Foxtrot Group of Companies, Investcom Ltd.</h4> 
+<span class="profession-time">2015 - present</span> 
+<p>Position - legal adviser </p> 
 
+<p class="prof-duty-item">Responsibilities: maintenance of the project, coordination of supply contracts, checking
+clients for fictitiousness, verification of documents, editing of translation of contracts from
+/ into English, translation of documents, maintenance of a database of supply contracts,
+consulting project managers</p> </li></div>
+<!-- company 3 -->
+<div>
+<li class="work-exp-item"><h4 class="company">Donetsk State University of Management </h4>
+<span class="profession-time">July 2013 - November 2013</span> 
+<p>Position - International Relations Officer</p> 
+
+<p class="prof-duty-item">Responsibilities: translations, collection of documents for visas, contacts with foreign
+partner universities, dealing with business correspondence, consulting on studying abroad</p> </li></div>
+<!-- company 4 -->
+<div>
+<li class="work-exp-item"><h4 class="company">Thomas English</h4>
+   <span class="profession-time">March 2012 – 2015</span> 
+<p> Position - Teacher of English</p> 
+
+<p class="prof-duty-item">Responsibilities:
+-teaching groups and giving individual lessons (levels of teaching: A1, A2, B1, B2)</p> </li></div>
+    </ul>
 </div>
-<div class="experience-skill">
-    <div class="experience-dots">
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item far fa-circle"></i>
-    </div>
-    
-<p class="experience-text">JavaScript</p>
-
+<!--  Education container-->
+<div>
+    <h3 class="about-me-title">Education</h3>
+    <ul class="professional-duties">
+        
+        <div>
+            <!-- Uni 1 -->
+            <li class="edu-item ">
+                <h4 class="company">Taras Shevchenko National University of Kyiv</h4>
+            <span class="profession-time">2015 – 2018</span>
+        <p >PhD student: specialty 25.00.02 &quot;Mechanisms of public administration&quot;</p>
+        <!-- Uni 2 -->
+    </li>
+    <li class="edu-item m"><h4 class="company">National Aviation University</h4>
+    <span class="profession-time">2015 – 2016</span>
+<p>Specialty: Jurisprudence (specialist)</p>
+</li>
+<!-- Uni 3 -->
+<li class="edu-item "><h4 class="company">Donetsk State University of Management (DSUM)</h4>
+<span class="profession-time">2013 - 2016</span>
+<p>Postgraduate: specialty 25.00.04 &quot;Local Self-Government&quot;</p></li>
+<!-- Uni 4 -->
+<li class="edu-item"><h4 class="company">Donetsk Law Institute of Ministry of Internal Affairs of Ukraine</h4>
+<span class="profession-time">2012- 2016</span>
+<p>Specialty: Civil Law disciplines</p></li>
+<!-- Uni 5 -->
+<li class="edu-item "><h4 class="company">Donetsk National University</h4>
+    <span class="profession-time">2012- 2013</span>
+<p>Specialty: &quot;International Economics&quot; (specialist)</p></li>
+<!-- Uni 6 -->
+<li class="edu-item "><h4 class="company">Donetsk National Technical University</h4>
+    <span class="profession-time">2008–2012</span>
+<p>Specialty: &quot;International Economics&quot;</p></li>
 </div>
-<div class="experience-skill">
-    <div class="experience-dots">
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item far fa-circle"></i>
-   <i class="experience-dots-item far fa-circle"></i>
-    </div>
-    
-<p class="experience-text">React</p>
-
+    </ul>
 </div>
+<!-- Certificates Container -->
+<div><h3 class="about-me-title">Certificates</h3>
+<ol> 
+    <li  class="pr-item">
+   <span class="certificate-item">  2015 - Certificate in Polish of the University of Adam Mitskevich in Poznan, Poland 
+    </span></li>
+<li class="pr-item"> <span class="certificate-item">  2012 - Cambridge certificate CAE (Certificate in Advanced English)
 
-<div class="experience-skill">
-    <div class="experience-dots">
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item far fa-circle"></i>
-   <i class="experience-dots-item far fa-circle"></i>
-   <i class="experience-dots-item far fa-circle"></i>
-    </div>
-    
-<p class="experience-text">Node</p>
+</span></li>
 
+<li class="pr-item"> <span class="certificate-item"> 2009 - Cambridge certificate FCE (First Certificate in English)</span></li></ol></div>
 </div>
-<div class="experience-skill">
-    <div class="experience-dots">
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-   <i class="experience-dots-item far fa-circle"></i>
-   <i class="experience-dots-item far fa-circle"></i>
-   <i class="experience-dots-item far fa-circle"></i>
-    </div>
-    
-<p class="experience-text">React Native</p>
-
-
-</div>
-
-</section>
-
-
-<!-- 3 MOBILE SECTIONS -->
-<section class="about">
-    <div class="container container-left">
-      <h3 class="section-title about-title">I code things from scratch_</h3>
-      <p class="about-descr">
-        <span>[and help to</span>
-        <span>create great web</span>
-        <span>apps]</span>
-      </p>
-      <div class="about-img-container">
-        <p class="about-img-text">
-          WEB
-          <img
-            src="img/web-apps-laptop.png"
-            alt="web apps laptop"
-            class="about-img"
-          />
-        </p>
-      </div>
-      <p class="about-text">
-        / I will help you to create a high-performance Landing Page, functional
-        corporate website for your business, interactive web app for SaaS,
-        startup, or other services.
-      </p>
-      <p class="about-text">
-        / My specialization is front-end development — client side of the web. But
-        I also have full-stack developer experience.
-      </p>
-    </div>
-  </section>
-  
-  <section class="personal-projects">
-    <div class="container">
-      <h3 class="section-title personal-projects-title">My personal _projects</h3>
-  
-      <div class="personal-project-item">
-        <div class="personal-project-item-container">
-          <div class="projet-item-dot-container">
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-          </div>
-          <img
-            src="img/projects/personal/full-stack.jpg"
-            alt="full stack website"
-            class="personal-project-img"
-          />
-        </div>
-        <p class="personal-project-name">
-          <i class="fas fa-laptop-code personal-project-icon"></i>
-          <span>Technology: HTML5, CSS3, JS</span>
-        </p>
-        <button class="personal-project-btn accent-btn">More details —</button>
-      </div>
-  
-      <div class="personal-project-item">
-        <div class="personal-project-item-container">
-          <div class="projet-item-dot-container">
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-          </div>
-          <img
-            src="img/projects/personal/wedding.jpg"
-            alt="wedding website"
-            class="personal-project-img"
-          />
-        </div>
-        <p class="personal-project-name">
-          <i class="fas fa-laptop-code personal-project-icon"></i>
-          <span>Technology: HTML, CSS, JavaScript, PHP</span>
-        </p>
-        <button class="personal-project-btn accent-btn">More details —</button>
-      </div>
-  
-      <div class="personal-project-item">
-        <div class="personal-project-item-container">
-          <div class="projet-item-dot-container">
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-          </div>
-          <img
-            src="img/projects/personal/pro-test.jpg"
-            alt="pro test website"
-            class="personal-project-img"
-          />
-        </div>
-        <p class="personal-project-name">
-          <i class="fas fa-laptop-code personal-project-icon"></i>
-          <span>Technology: React.js, Node.js</span>
-        </p>
-        <button class="personal-project-btn accent-btn">More details —</button>
-      </div>
-  
-      <div class="personal-project-item">
-        <div class="personal-project-item-container">
-          <div class="projet-item-dot-container">
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-          </div>
-          <img
-            src="img/projects/personal/goit.jpg"
-            alt="goit website"
-            class="personal-project-img"
-          />
-        </div>
-        <p class="personal-project-name">
-          <i class="fas fa-laptop-code personal-project-icon"></i>
-          <span>Technology: HTML, CSS, JavaScript, Wordpress</span>
-        </p>
-        <button class="personal-project-btn accent-btn">More details —</button>
-      </div>
-    </div>
-  </section>
-  
-  <section class="team-projects">
-    <div class="container">
-      <span class="team-projects-title-bgd">TEAM</span>
-      <h3 class="section-title team-projects-title">
-        Teamwork _projects
-      </h3>
-      <div class="team-project-item">
-        <div class="personal-project-item-container">
-          <div class="projet-item-dot-container">
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-          </div>
-          <img
-            src="img/projects/team/questify.jpg"
-            alt="quetify app"
-            class="personal-project-img"
-          />
-        </div>
-        <p class="team-project-name">
-          <i class="fas fa-laptop-code personal-project-icon"></i>
-          Technology: React.js, Node.js
-        </p>
-        <button class="personal-project-btn accent-btn">More details —</button>
-      </div>
-      <div class="team-project-item">
-        <div class="personal-project-item-container">
-          <div class="projet-item-dot-container">
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-            <div class="projet-item-dot"></div>
-          </div>
-          <img
-            src="img/projects/team/it-test.jpg"
-            alt="it test app"
-            class="personal-project-img"
-          />
-        </div>
-        <p class="team-project-name">
-          <i class="fas fa-laptop-code personal-project-icon"></i>
-          Technology: React.js, Node.js
-        </p>
-        <button class="personal-project-btn accent-btn">More details —</button>
-      </div>
-    </div>
-  </section>
-  
-
-
-
-
-<!-- CALLBACK FORM CONTAINER -->
-<section class="callback-form">
-    <div class="container">
-        <form action="" class="callback-form-container" >
-            <h3 class="callback-form-title">/Are you minding [a project?]</h3>
-            <p class="callback-form-descr">Leave a request to discuss the task and technical requirements
-            </p>
-            <input type="text" class="callback-form-input"placeholder="Name">;
-            <input type="email" class="callback-form-input"placeholder="Email">;
-            <input type="tel" class="callback-form-input"placeholder="Phone">;
-            <input type="submit" class="callback-form-submit accent-btn" value="Discuss the project  —">;
-
-        </form>
-    </div>
-</section>
-
-    
-
-
-
-<!-- CALCULATOR SECTION -->
-<section class="calculator">
-  <div class="container">
-    <h3 class="calculator-title section-title">
-      Calculate_ the cost of a future project
-    </h3>
-    <p class="calculator-descr">
-      <span>This is an</span>
-      <span class="calculator-descr-accent">approximate</span>
-      <span>calculation.</span>
-    </p>
-    <img src="img/calculator.svg" alt="calculator" class="calculator-icon" />
-    <p class="calculator-text">
-      / The final cost depends on the technical requirements, terms, specifics
-      of your project.
-    </p>
-    <form action="" class="calculator-form">
-      <div class="calculator-form-input">
-        <label for="calculator-form-website-type" class="calculator-form-title">What should be done: </label>
-        <select name="website-type" id="calculator-form-website-type" class="calculator-form-select"> 
-          <option value="landing-page">Landing page</option>
-          <option value="website">Website</option>
-          <option value="cms">CMS</option>
-          <option value="portal" selected>Portal</option>
-          <option value="e-shop">E-shop</option>
-
-        </select>
-      </div>
-
-
-      <div class="calculator-form-input">
-        <label for="calculator-form-technologies" class="calculator-form-title">Choose preferred technologies
-        </label>
-        <select name="technologies" id="calculator-form-technologies" class="calculator-form-select" multiple>
-
-          <option selected value="css">CSS</option>
-          <option selected value="html">HTML</option>
-          <option selected value="js">JS</option>
-          <option selected value="react">React</option>
-          <option selected value="angular">Angular</option>
-          <option selected value="php">PHP</option>
-        </select>
-      </div>
-
-
-<div class="calculator-form-input">
-<label for="" class="calculator-form-title">Personal account and shopping cart: </label>
-
-<div class="calculator-form-input-radio-container">
-
-
-<input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-yes" name="cart-yes">
-<label for="calculator-form-input-cart-yes" class="calculator-form-input-label" >Yes</label>
-
-<input type="radio" class="calculator-form-input-field"  id="calculator-form-input-cart-no" name="cart-no">
-<label for="calculator-form-input-cart-no" class="calculator-form-input-label">No</label>
-
-</div>
-</div>
-
-<div class="calculator-form-input">
-<label for="" class="calculator-form-title">Requests reception on your email:</label>
-<div class="calculator-form-input-radio-container"> 
-
-<input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-yes" name="reception-yes">
-<label for="calculator-form-input-reception-yes" class="calculator-form-input-label">Yes</label>
-
-
-
-
-<input type="radio" class="calculator-form-input-field"  id="calculator-form-input-reception-no" name="reception-no">
-<label for="calculator-form-input-reception-no" class="calculator-form-input-label">No</label>
-</div>
-</div>
-
-
-<div class="calculator-form-input">
-<p class="calculator-form-total">Cost</p>
-<p class="calculator-form-total-cost">350$</p>
-</div>
-
-<input type="submit" value="Find out the cost  —" class="accent-btn">
-
-    </form>
-  </div>
-</form>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer class="footer">
-
-  <div class="container">
-    <h3 class="footer-my-name">Kateryna Selyvonenko
-    </h3> 
-   <p class="footer-my-profession">Frontend Developer</p>
-   <a href="tel:380951448802" class="footer-my-tel">+38 (095) 144 88 02</a> 
-   <a href="mailto:katement@gmail.com" class="footer-my-mail">katement@gmail.com</a> 
-
-
-  
-
-  <div class="social-links">
-  <a href="http://" class="social-links-item-link" > <i class="fab fa-github social-links-item"></i> </a> 
-  <a href="http://"class="social-links-item-link"> <i class="fab fa-linkedin social-links-item"></i> </a> 
-    <a href="http://"class="social-links-item-link"> <i class="fab fa-facebook-square social-links-item"></i>  </a>   
-      <a href="http://"class="social-links-item-link">  <i class="fab fa-instagram social-links-item"></i></a> 
-  </div>
-  </div>
-</footer>
-
-<script src="js/choices.min.js"></script>
-<script src="js/calculator.js"></script>
+</div>  
 </body>
 </html>

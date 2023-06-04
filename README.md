@@ -1,1 +1,0 @@
-# selyvonenko-cv
